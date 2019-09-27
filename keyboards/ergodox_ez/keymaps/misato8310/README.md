@@ -6,6 +6,7 @@ ErgodoxEZ のキーマップをできるだけ mac や日本語配列のキー�
 
 - OS
     - macOS High Sierra
+    - Windows 10 も動くかも？
 - キー配列
     - JIS (日本語)
 
@@ -14,7 +15,6 @@ ErgodoxEZ のキーマップをできるだけ mac や日本語配列のキー�
 ## 2019-08-04 (ver.0.1)
 
 - キーの文字と実際に入力される文字が違う点修正
-    - 参照: [日本語配列でバリバリにErgoDox EZを使う](https://qiita.com/shuh/items/b94215d3b946d3ded0fe) ありがてぇ…ありがてぇ…
     - `[` のキーが `@` になるのを `[` が入力されるよう修正 などなど
 - `英数` `かな` キーを追加
     - 初期状態ではマッピングされていないのでかなりきつい
@@ -44,7 +44,7 @@ ErgodoxEZ のキーマップをできるだけ mac や日本語配列のキー�
     - 誤爆シリーズその1: なんだかんだで左上がいい
     - 空席になった `Esc` キーの場所には `_` を割当
 - `Symbol Layer` キーを `^` へ変更
-    - 誤爆シリーズその2: タッチタイピングしてるとキーの境目がわからなくなってよく誤爆する
+    - 誤爆シリーズその2: タッチタイピングしてるとキーの境目がわからなくなってよく誤爆する
 - `z` キー長押し時に発動する `Command` を `'` キー長押し時に発動するように変更
     - `C-z` できねーーーので位置を変えた
 - `Tab` と ` ` キーをコーカン！
@@ -73,3 +73,21 @@ ErgodoxEZ のキーマップをできるだけ mac や日本語配列のキー�
 - `Symbol Layer` に `~` キーを追加
     - `Symbol Layer` 使ってみよう活動
     - 活用しないで終わるかも(；´Д｀)
+
+## 2019-09-28 (ver.0.1.５)
+
+- テンキーの配置を修正
+    - 記号の配置を一般的なテンキーの配置にあわせた
+- `半角/全角` キーの追加
+    - `KC_GRV` が `半角/全角` キーに該当するのでマッピング名を設定
+
+# 参照サイト
+
+- [avr-gcc のインストール](https://github.com/osx-cross/homebrew-avr)
+- [キーコード一覧](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md)
+- [QMK系キーマップGUIツール](https://config.qmk.fm/#/ergodox_ez/LAYOUT_ergodox)
+- [キーマップAAジェネレータ](https://github.com/yskoht/keymapviz)
+- [ErgoDox EZのキーマップを変更する](https://qiita.com/ReSTARTR/items/f84f8f3c4c51c876cb2f)
+- [キーマップのチートシート](http://qiita.com/ReSTARTR/items/970354940f49c67fb9fd)
+- [英数/かな変換](https://qiita.com/miyaoka/items/e3f7242b4767cd599364)
+- [日本語配列でバリバリしたい](https://qiita.com/shuh/items/b94215d3b946d3ded0fe)
